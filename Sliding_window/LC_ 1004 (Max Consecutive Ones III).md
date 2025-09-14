@@ -1,6 +1,6 @@
 ## LC_1004 (Max Consecutive Ones III)
 https://leetcode.com/submissions/detail/1770080855/
-## APPRQACH
+## APPROACH
 - K is the number of Flips that can be done .
 - Same as Approach for sliding window , Iterate J pointer till length of Array .
 - Determine number of Zeros with a Count Variable . If count > K , remove the elements by increasing I pointer and if 0 exist on Ith position while removal , decrease the value of count before iteration .
