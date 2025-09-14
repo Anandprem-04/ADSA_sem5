@@ -1,5 +1,10 @@
-APPROACH : Distinct list leke , adjacent se compare karna h .
-class Solution {
+## LC_2210_Count_hill
+https://leetcode.com/problems/count-hills-and-valleys-in-an-array/submissions/1754298785/
+
+##APPROACH 
+Distinct list leke , adjacent se compare karna h .
+
+  
     public int countHillValley(int[] nums) {
         int h = 0;
         ArrayList<Integer> arr = new ArrayList<>();
@@ -14,9 +19,4 @@ class Solution {
         }
         return h;
     }
-}
-//Counting valleys and hill , agar same value aaye toh usko same valley ya hill consider karna h , and while comparision that valley or hill uske adjacent se compare karna h 
-Example 1:
-Input: nums = [2,4,1,1,6,5]
-Output: 3
-just like both 1 ko agal bagal me 4 , 6 se compare karte h .
+
