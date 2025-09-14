@@ -1,7 +1,7 @@
 ## LC_2210_Count_hill
 https://leetcode.com/problems/count-hills-and-valleys-in-an-array/submissions/1754298785/
 
-##APPROACH 
+## APPROACH 
 Distinct list leke , adjacent se compare karna h .
 
   
